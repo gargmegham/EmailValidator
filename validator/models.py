@@ -1,6 +1,7 @@
 from django.db import models
 
-class emailFiles(models.Model):
+
+class EmailFiles(models.Model):
     file = models.FileField()
     is_processed = models.BooleanField(default=False)
     name = models.CharField(unique=True, max_length=20)

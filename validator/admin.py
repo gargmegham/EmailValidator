@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import emailFiles
+
+from .models import EmailFiles
 
 # Register your models here.
-admin.site.register(emailFiles)
+admin.site.register(EmailFiles)
